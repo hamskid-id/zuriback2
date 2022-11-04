@@ -31,7 +31,7 @@ app.post('/', async(req,res)=>{
                         "y":matches[1]
                     }
                     const operationResult ={
-                        "slackUsername":"lawalH",
+                        "slackUsername":"LawalH",
                         "operation_type":operation,
                         "result":sol?sol:"invalid input"
                     }
